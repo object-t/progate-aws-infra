@@ -5,4 +5,5 @@ example/
 terraform.tfstate
 terraform.tfstate.backup
 terraform.tfstate.*.backup
+*.tfstate.lock.info
 CLAUDE.md
