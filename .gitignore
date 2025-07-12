@@ -1,0 +1,8 @@
+terraform.tfvars
+.terraform/
+example-front/
+example/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.*.backup
+CLAUDE.md

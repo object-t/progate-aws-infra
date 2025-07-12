@@ -1,0 +1,23 @@
+# Copy this file to terraform.tfvars and fill in your values
+# cp terraform.tfvars.example terraform.tfvars
+
+# Domain configuration
+domain_name = "example.com"
+zone_name   = "example.com"
+
+# Cloudflare API token
+# Get from: https://dash.cloudflare.com/profile/api-tokens
+cloudflare_api_token = "your-cloudflare-api-token-here"
+
+# Environment
+environment = "production"
+
+# Google OAuth configuration for Cognito
+# Create a Google OAuth App at: https://console.cloud.google.com/
+# 1. Go to Google Cloud Console
+# 2. Create a new project or select an existing one
+# 3. Enable Google+ API
+# 4. Create OAuth 2.0 credentials
+# 5. Add authorized redirect URIs: https://your-cognito-domain.auth.region.amazoncognito.com/oauth2/idpresponse
+google_client_id = "your-google-client-id"
+google_client_secret = "your-google-client-secret"
