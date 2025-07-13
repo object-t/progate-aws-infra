@@ -1,10 +1,6 @@
 # Progate AWS Infrastructure
 インフラ管理用のリポジトリです。
 
-## Todo
-- [ ] dynamodb.tf追加
-- [ ] bedrock.tf追加
-
 ## Terraform Files
 
 ```
